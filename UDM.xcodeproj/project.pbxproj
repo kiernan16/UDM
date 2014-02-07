@@ -384,6 +384,7 @@
 				GCC_PREFIX_HEADER = "UDM/UDM-Prefix.pch";
 				INFOPLIST_FILE = "UDM/UDM-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -397,6 +398,7 @@
 				GCC_PREFIX_HEADER = "UDM/UDM-Prefix.pch";
 				INFOPLIST_FILE = "UDM/UDM-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -462,6 +464,7 @@
 				34E03860189BFBCC00A704C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34E03861189BFBCC00A704C7 /* Build configuration list for PBXNativeTarget "UDMTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +473,7 @@
 				34E03863189BFBCC00A704C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
